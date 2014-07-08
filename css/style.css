@@ -1,0 +1,48 @@
+.hh-tag{
+    display:inline-block;
+    line-height:normal;
+    white-space:nowrap;
+    vertical-align:baseline;
+    text-align:center;
+    font-size: 10px;
+    overflow:visible;
+    padding:.5em 1em;
+    color:#444;
+    color:rgba(0,0,0,.8);
+    border:1px solid #999;
+    border:0 rgba(0,0,0,0);
+    background-color:#E6E6E6;
+    border-radius:2px;
+}
+
+
+.blue {
+    background-color:#0078e7;
+    color:#fff;
+}
+
+.light-blue {
+    background: rgb(66, 184, 221);
+    color:#fff;
+}
+
+.red {
+    background: rgb(202, 60, 60); 
+    color:#fff;
+}
+
+.orange {
+    background: rgb(223, 117, 20); 
+    color:#fff;
+}
+
+.green {
+    background: rgb(28, 184, 65);
+    color:#fff;
+}
+
+.purple {
+    background: rgb(153, 60, 202); 
+    color:#fff;
+}
+

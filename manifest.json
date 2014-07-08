@@ -1,0 +1,26 @@
+{
+    "name": "Hackathon Hackers Facebook Tags",
+    "description": "Tags on tags on tags #fuckitshipit",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ],
+            "css": [
+                "css/style.css"
+            ],
+            "js": [
+                "js/jquery.js",
+                "js/script.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "icons": {
+        "128": "images/tag.png"
+    }
+}
